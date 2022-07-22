@@ -1,0 +1,203 @@
+.adminheader{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.adminheader a{
+    font-size: 30px;
+}
+
+.generalandperticuler{
+    width: 80%;
+    margin:20px auto;
+    display: flex;
+    background-color: aqua;
+}
+
+.generalandperticuler button{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.generalandperticuler button:hover{
+    background-color: aquamarine;
+}
+
+/* Admin login page css */
+
+.AdminLongpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #81ecec;
+}
+.adminloginContainer{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px gray;
+}
+.adminloginpageimage img{
+    width: 600px;
+    height: 600px;
+}
+.adminloginpagedetails{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+
+.adminloginpageinputs{
+    width: 100%;
+    height: 300px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputfield{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin: 20px 10px;
+}
+.inputfield input{
+    font-size: 25px;
+    width: 340px;
+    background-color: transparent;
+    border: none;
+    margin: 0px 10px;
+    padding:0 5px
+}
+.adminformsubmitbtn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.adminformsubmitbtn button{
+    font-size: 30px;
+    padding: 5px 40px;
+    background-color: aqua;
+    border: none;
+    box-shadow: 0 0 10px 2px gray;
+    border-radius: 10px;
+}
+
+
+.adminformsubmitbtn button:hover{
+    background-color: #00cec9;
+}
+
+/* admin page product details */
+.orderdetailsContainer{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    margin: 30px auto;
+}
+.orderdetailsContainer h1{
+    text-align: center;
+}
+
+
+
+.tobedeliveredproducts{
+    border-right: 1px solid blue;
+    min-height: 500px;
+    padding: 10px;
+}
+
+.deliveredproductdetails{
+    /* border: 1px solid aquamarine; */
+    min-height: 500px;
+    padding: 10px;
+}
+
+.adminproduct{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.adminproductimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.adminproduct img{
+    width: 100px;
+}
+
+.adminproduct p{
+    font-size: 15px;
+}
+
+
+
+    /* perticuler transaction details */
+.transactionsearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.transactionentryInput{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.productDetails{
+    width: 60%;
+    margin: auto;
+}
+
+.transactionentryInput input{
+    margin: 0 20px;
+    font-size: 30px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.transactionentryInput button{
+    font-size: 30px;
+    padding: 5px 30px;
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.transactionentryInput button:hover{
+    background-color: chocolate;
+}
+
+.transactionentryInput input:focus{
+    box-shadow: 0 0 10px aqua;
+}
+
+.transactiondatanotFound{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    height: 300px;
+    align-items: center;
+}
